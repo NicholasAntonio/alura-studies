@@ -1,10 +1,14 @@
 import style from './botao.module.scss'
 
-export function Botao(){
+interface Props{
+    children: any
+}
+
+export function Botao({children}:Props){
     return(
         <>
         <button className={style.botao}>
-            Botão
+            {children}
         </button>
         </>
     )
