@@ -4,4 +4,5 @@ export interface ITarefa{
     selecionado: boolean,
     completado: boolean,
     id: string
+   
   }
